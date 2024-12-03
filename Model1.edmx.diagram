@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0400e886703c46e383d1dabfd4865700" Name="Diagram1">
+        <EntityTypeShape EntityType="Master_polModel.DefectRate" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Master_polModel.Employees" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Master_polModel.Materials" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Master_polModel.Partners" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Master_polModel.Production" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Master_polModel.Products" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Master_polModel.Warehouse" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="Master_polModel.FK__DefectRat__Produ__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="Master_polModel.FK__Employees__Manag__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="Master_polModel.FK__Materials__Wareh__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Master_polModel.FK__Productio__Mater__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="Master_polModel.FK__Products__Suppli__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="Master_polModel.FK__Productio__Produ__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

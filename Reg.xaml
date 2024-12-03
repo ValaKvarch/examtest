@@ -1,0 +1,19 @@
+﻿<Page x:Class="ISPp_1_22_Yuritsyna.Reg"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ISPp_1_22_Yuritsyna"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800"
+      Title="Reg">
+
+    <Grid>
+        <Canvas Background="#67BA80">
+
+            <TextBlock Text="Добро пожаловать" Canvas.Left="225" Canvas.Top="110" Height="40" Width="350" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline" FontFamily=" Segoe UI" FontWeight="Bold"/>
+            <Image  Height="110" Canvas.Left="310" Width="108" Canvas.Top="171" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.519,0.8" Source="/Мастер пол.png" />
+            <Button Content="Перейти на стр" Canvas.Left="274" Canvas.Top="302" Height="56" Width="180" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" FontFamily=" Segoe UI" FontStyle="Italic"/>
+        </Canvas>
+    </Grid>
+</Page>
